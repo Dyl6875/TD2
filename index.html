@@ -1,57 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Square - Construire des formes</title>
     <link rel="stylesheet" href="styles/TD2.css">
 </head>
+
 <body>
+
     <header>
-        <div class="navbar">
-            <div class="logo">Square</div>
-            <nav>
-                <ul>
-                    <li><a href="#">Solutions</a></li>
-                    <li><a href="#">Prix</a></li>
-                    <li><a href="#">Expériences</a></li>
-                </ul>
-            </nav>
-            <a href="#" class="login-btn">Se connecter</a>
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            <div class="square">Square</div>
+        </div>
+        <div class="tete">
+            <div>Solutions</div>
+            <div>Prix</div>
+            <div>Expériences</div>
+        </div>
+        <div class="connect">
+            <a href="#">Se connecter</a>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="content">
-            <h1>Faire mieux<br><strong>Construire des formes</strong></h1>
-            <p>
-                Notre société propose de créer des formes. Vous avez besoin d'un carré, d'un cercle, ou même un triangle ?
-                Nous avons l'ensemble des outils pour répondre à l'ensemble de vos besoins.
-            </p>
-            <div class="cta-buttons">
-                <button class="demo-btn">Démo</button>
-                <button class="signup-btn">S'inscrire</button>
+    <main>
+        <div class="zone1">
+            <div class="text-content">
+                <div>Faire mieux</div>
+                <div class="titre">
+                    <h1>Construire des formes</h1>
+                </div>
+                <p class="gras">
+                    Notre société propose de créer des formes. Vous avez besoin d'un carré, d'un cercle, ou même un
+                    triangle ?
+                </p>
+                <p class="gras">
+                    Nous avons l'ensemble des outils pour répondre à l'ensemble de vos besoins.
+                </p>
+                <a href="#enBas" class="bouton">Démo</a>
+                <a href="#" class="bouton2">S'inscrire</a>
             </div>
+            <img src="https://cdn.motor1.com/images/mgl/VzMq0z/s3/bugatti-chiron-1500.jpg" alt="chiron">
         </div>
-        <div class="illustration">
-            <!-- Illustration ici -->
-        </div>
-    </section>
 
-    <section class="main-content">
-        <div class="shape-section">
-            <p>Un rond</p>
-            <div class="circle"></div>
+        <div class="zone2" id="enBas">
+            <p>Blou blou blou</p>
+            <div class="degra"></div>
         </div>
-    </section>
+    </main>
 
     <footer>
-        <div class="footer-content">
-            <a href="#">Mentions légales</a>
-            <a href="#">Nous contacter</a>
-            <a href="#">Nous trouver</a>
-            <div class="footer-logo">Square</div>
+        <!-- Conteneur pour les phrases à gauche -->
+        <div class="footer-left">
+            <div>Mentions legales</div>
+            <div>Nous contacter</div>
+            <div>Nous trouver</div>
+        </div>
+    
+        <!-- SVG et texte "Square" alignés côte à côte à droite -->
+        <div class="fin">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            <div class="b">Square</div> <!-- Le texte "Square" sera à droite du SVG -->
         </div>
     </footer>
+    
+
+
 </body>
+
 </html>
